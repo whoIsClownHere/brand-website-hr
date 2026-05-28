@@ -119,6 +119,14 @@ header.nav.solid{
 }
 .btn .arrow{transition:transform .35s var(--ease)}
 .btn:hover .arrow{transform:translate(4px,-4px)}
+.arrow,
+.arw,
+.arrow-text{
+  font-family:var(--body),Arial,sans-serif;
+  font-style:normal;
+  font-variant-emoji:text;
+  line-height:1;
+}
 .btn-light{background:var(--fg);color:var(--ink-000)}
 .btn-light:hover{background:var(--white);transform:translateY(-2px)}
 .btn-ghost{background:transparent;color:var(--fg);border-color:var(--line-strong)}
